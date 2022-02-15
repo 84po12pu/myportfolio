@@ -12,6 +12,41 @@ body {
     color: #333;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border:3px solid #B40003;
+    margin: 20px;
+    z-index: 499;
+}
+
+/* #i-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border:3px solid #B40003;
+    margin: 20px;
+    z-index: 400;
+} */
+
+/* body:before {
+    content: "";
+    position: absolute;
+    z-index: 400;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border:10px solid #B40003;
+    margin: 20px;
+    } */
+
 ul {
     list-style-type: none;
     display: flex;
@@ -115,6 +150,10 @@ section {
     top: 25vh;
     z-index: 10;
     animation: fuwafuwa 6s linear;
+}
+
+#i-header {
+
 }
 
 /* .waku {
