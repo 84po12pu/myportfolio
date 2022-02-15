@@ -142,6 +142,7 @@ section {
     border-bottom: 1px solid;
     opacity: 0;
     animation: slide 4s 2s ease forwards;
+    
 }
 
 
@@ -488,6 +489,11 @@ small {
         font-size: 1rem;
         margin-top: 1rem;
     }
+
+    #i-header a {
+        bottom: 8rem;
+    }
+    
     /* contents.html----------------------------------------- */
     .sp-br {
         display: block;
