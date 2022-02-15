@@ -43,9 +43,19 @@ section {
 
 /* index.html------------------------------------------------------------------------------------ */
 
-#i-header {
-    position: relative;
-    height: 100vh;
+#i-header a {
+    position: absolute;
+    z-index: 500;
+    text-align: right;
+    right: 7rem;
+    bottom: 7rem;
+    color: #592305;
+    font-size: 2rem;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    opacity: 0;
+    animation: slide 4s 2s ease forwards;
+
 }
 
 .title {
@@ -131,20 +141,6 @@ section {
     margin-left: 10rem;
 } */
 
-#i-header a {
-    position: absolute;
-    z-index: 500;
-    text-align: right;
-    right: 7rem;
-    bottom: 7rem;
-    color: #592305;
-    font-size: 2rem;
-    text-decoration: none;
-    border-bottom: 1px solid;
-    opacity: 0;
-    animation: slide 4s 2s ease forwards;
-    
-}
 
 
 
@@ -471,6 +467,7 @@ small {
     #i-header a {
         font-size: 1.5rem;
         right: 2rem;
+        bottom: 8rem;
     }
 
 
@@ -491,10 +488,6 @@ small {
         margin-top: 1rem;
     }
 
-    #i-header a {
-        bottom: 8rem;
-    }
-    
     /* contents.html----------------------------------------- */
     .sp-br {
         display: block;
