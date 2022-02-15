@@ -39,23 +39,21 @@ a {
 
 section {
     margin-top: 100px;
-
 }
 
 /* index.html------------------------------------------------------------------------------------ */
+
 #i-header {
-    background-color: red;
     position: relative;
     height: 100vh;
-    overflow: hidden;
 }
 
-/* .title {
+.title {
     position: absolute;
     text-align: right;
     right: 7rem;
-    top: 50vh;
-    transform: translateY(-50vh);
+    top: 50%;
+    transform: translateY(-50%);
     color: #592305;
     animation: slide 6s;
     z-index: 200;
@@ -67,10 +65,10 @@ section {
 }
 
 .title h2 {
-    font-size: 2rem;s
+    font-size: 2rem;
     font-weight: normal;
     margin-top: 0.5rem;
-} */
+}
 
 .sankaku-top {
     width: 0;
@@ -109,16 +107,16 @@ section {
     animation: fuwafuwa 6s linear;
 }
 
-/* .waku {
+.waku {
     width: 95vw;
     height: 95vh;
     border: 2px solid #592305;
     position: absolute;
-    left: 50vw;
-    top: 50vh;
-    transform: translate(-50vw, -50vh);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: 100;
-} */
+}
 
 /* #i-header nav {
     position: absolute;
@@ -132,24 +130,23 @@ section {
     margin-left: 10rem;
 } */
 
-/* #i-header a {
+#i-header a {
     position: absolute;
     z-index: 500;
+    text-align: right;
     right: 7rem;
     bottom: 7rem;
-
     color: #592305;
     font-size: 2rem;
     text-decoration: none;
     border-bottom: 1px solid;
-
     opacity: 0;
     animation: slide 4s 2s ease forwards;
-} */
+}
 
 
 
-/* @keyframes slide {
+@keyframes slide {
     0% {
         opacity: 0;
         transform: translateX(-1000px);
@@ -188,7 +185,7 @@ section {
     100% {
         transform: translateY(0px);
     }
-} */
+}
 
 /* contents.html------------------------------------------------------------------------------------ */
 
@@ -291,7 +288,7 @@ td {
     margin-bottom: 1rem;
 }
 
-.about .flex p{
+.about .flex p {
     margin-left: 1rem;
 }
 
@@ -355,7 +352,7 @@ td {
 .w-grid img:hover {
     opacity: 0.6;
     transform: scale(1.1);
-    transform:translate(0, -10px);
+    transform: translate(0, -10px);
 
 }
 
@@ -464,12 +461,18 @@ small {
 
     /* index.html----------------------------------------- */
 
-    /* #i-header a {
+    .maru {
+        width: 250px;
+        height: 250px;
+    }
+
+    #i-header a {
         font-size: 1.5rem;
-    } */
+        right: 2rem;
+    }
 
 
-    /* .title {
+    .title {
         width: 300px;
         text-align: center;
         left: 50%;
@@ -484,24 +487,24 @@ small {
     .title h2 {
         font-size: 1rem;
         margin-top: 1rem;
-    } */
-/* contents.html----------------------------------------- */
-.sp-br {
-    display: block;
-}
+    }
+    /* contents.html----------------------------------------- */
+    .sp-br {
+        display: block;
+    }
 
-.hnavi li{
-    font-size: 1rem;
-    margin-left: 1rem;
-}
+    .hnavi li {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
 
-.hobby {
-    grid-template-columns: 1fr 1fr;
-}
+    .hobby {
+        grid-template-columns: 1fr 1fr;
+    }
 
-.s-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
+    .s-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 
 
 
