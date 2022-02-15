@@ -112,10 +112,11 @@ section {
     height: 95vh;
     border: 2px solid #592305;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: 2.5vw;
+    top: 2.5vh;
+    /* transform: translate(-50%, -50%); */
     z-index: 100;
+
 }
 
 /* #i-header nav {
