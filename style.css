@@ -52,8 +52,8 @@ section {
     position: absolute;
     text-align: right;
     right: 7rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 50vh;
+    transform: translateY(-50vh);
     color: #592305;
     animation: slide 6s;
     z-index: 200;
