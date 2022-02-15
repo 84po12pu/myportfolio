@@ -412,6 +412,10 @@ small {
         bottom: 8rem;
     }
 
+    #i-header::before {
+        margin: 10px;
+    }
+
     .title {
         width: 300px;
         text-align: center;
