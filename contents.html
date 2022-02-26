@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- css -->
     <link rel="stylesheet" href="style.css">
 
@@ -38,7 +40,7 @@
 
     <section class="about" id="about">
         <h2>ABOUT</h2>
-        <div class="wrapper">
+        <div class="wrapper leftTrigger" id="animate">
             <h3 class="name">はじめまして！<br class="sp-br">中村　弥生と申します。</h3>
             <p class="intro">短大卒業後、長く接客業に従事しておりました。
                 海外留学経験があり、新しいことに挑戦することが好きです。
@@ -117,7 +119,7 @@
 
     <section class="work" id="work">
         <h2>WORKS</h2>
-        <div class="wrapper">
+        <div class="wrapper rightTrigger" id="animate">
             <h3>Webサイト(デザイン＋コーディング)の記録です。<br>
                 ※画像をクリックすることでサイトに飛べるようになっています。</h3>
             <div class="w-grid">
@@ -134,7 +136,7 @@
                     <figcaption>
                         <h4>デザイン/コーディング</h4>
                         <p>VSCode/ Illustrator/ Photoshop</p>
-                        <p>架空の【フレンチレストランサイト】です。LUNCHページは爽やかに、DINNERページは高級感が出るように色選びをしました。ファーストビューはおいしいそうな写真を全面に配置することでインパクトのある仕上がりになりました。</p>
+                        <p>架空の【フレンチレストランサイト】です。LUNCHページは爽やかに、DINNERページは高級感が出るようにデザインしました。ファーストビューはおいしいそうな写真を全面に配置することでインパクトのある仕上がりになりました。</p>
                     </figcaption>
                 </figure>
                 <figure>
@@ -142,7 +144,7 @@
                     <figcaption>
                         <h4>デザイン/コーディング</h4>
                         <p>VSCode/ Illustrator/ Photoshop</p>
-                        <p>架空の【ワイナリーサイト】です。デザインカンプではレスポンシブの指示が無かったため、ヘッダーを上部に固定したデザインでレスポンシブ対応サイトにしてみました。</p>
+                        <p>架空の【ワイナリーサイト】です。メインカラーを明るい紫にするとチープな印象になってしまうため、紫の色選びに苦労しました。ワイナリーの豊かな自然をイメージできるように写真を沢山配置し、アーチ型にカットすることで海外っぽい雰囲気になりました。</p>
                     </figcaption>
                 </figure>
                 <figure>
@@ -150,7 +152,7 @@
                     <figcaption>
                         <h4>デザイン/コーディング</h4>
                         <p>VSCode/ Illustrator/ Photoshop</p>
-                        <p>架空の【水族館サイト】です。波上にうねった線を使用することで水族館らしさとかわいらしさが出たと思います。子供やファミリーをターゲットにしており、飽きないようにファーストビューにはスライドショー、背景にもイラストを配置しました。ロゴのイラストは海底で休憩する魚をイメージしました。</p>
+                        <p>架空の【水族館サイト】です。波のようにうねった線を使用することで水族館らしさとかわいらしさが出たと思います。子供やファミリーをターゲットにしており、飽きないようにファーストビューにはスライドショー、背景にもイラストを配置しました。ロゴのイラストは海底で休憩する魚をイメージしました。</p>
                     </figcaption>
                 </figure>
                 <figure>
@@ -158,7 +160,7 @@
                     <figcaption>
                         <h4>コーディング</h4>
                         <p>VSCode</p>
-                        <p>実際に存在する【ぶなの里という会社のサイト】です。卒業制作としてディレクター1人、デザイナー2人、コーダー2人の計5人で1ヶ月かけて作成しました。私はコーディングを担当しました。他チームとの差別化を図るため、ファーストビューを含めデザインはチーム内で何度も話し合い、修正を繰り返しました。写真とイラストが親しみを感じさせ、シンプルかつ大胆なデザインに仕上げることができました。</p>
+                        <p>実際に存在する【ぶなの里】という会社のサイトです。卒業制作としてディレクター1人、デザイナー2人、コーダー2人の計5人で1ヶ月かけて作成しました。私はコーディングを担当しました。他チームとの差別化を図るため、ファーストビューを含めデザインはチーム内で何度も話し合い、修正を繰り返しました。写真とイラストが親しみを感じさせ、シンプルかつ大胆なデザインに仕上げることができました。</p>
                     </figcaption>
                 </figure>
                 <figure>
@@ -178,7 +180,7 @@
 
     <section class="skill" id="skill">
         <h2>SKILL</h2>
-        <div class="wrapper">
+        <div class="wrapper leftTrigger" id="animate">
             <div class="s-grid">
                 <div class="img-box">
                     <img src="img/html.png" alt="">
@@ -235,16 +237,20 @@
 
     <section class="contact">
         <h2>CONTACT</h2>
-        <div class="wrapper">
+        <div class="wrapper rightTrigger" id="animate">
             <h3>お問い合わせは下記メールアドレスにお願いします。</h3>
-            <address>Name:中村　弥生</address>
-            <address>Email:〇〇〇@gmail.com</address>
+            <address>Name：中村　弥生</address>
+            <address>Email：ny_portfolio_wd01@outlook.jp</address>
         </div><!-- wrapperここまで -->
     </section><!-- contactここまで -->
 
-
     <footer><small class="wrapper">&copy; 2022 Y's Portfolio</small></footer>
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- inview -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <!-- 自作js -->
     <script src="script.js"></script>
 </body>
 

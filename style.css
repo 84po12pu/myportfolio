@@ -170,6 +170,20 @@ section {
 
 /* contents.html------------------------------------------------------------------------------------ */
 
+/* animate+invewでスクロール */
+#animate {
+    animation-duration: 2s;
+    /* アニメーションの時間 */
+    /* animation-iteration-count: infinite; */
+    /* アニメーションの繰り返し回数 */
+}
+
+.rightTrigger,
+.leftTrigger {
+	opacity: 0;
+}
+
+/* 共通項目---------------------- */
 #c-header {
     background-color: #a5b1ad;
     position: sticky;
@@ -383,6 +397,10 @@ footer {
 
 small {
     font-size: 14px;
+}
+
+address {
+    font-style: normal;
 }
 
 
