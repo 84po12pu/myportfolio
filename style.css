@@ -241,7 +241,8 @@ section {
     margin-left: 2rem;
 }
 
-.sp-br {
+.sp-700,
+.sp-400 {
     display: none;
 }
 
@@ -449,7 +450,7 @@ address {
     }
 
     /* contents.html----------------------------------------- */
-    .sp-br {
+    .sp-700 {
         display: block;
     }
 
@@ -467,3 +468,9 @@ address {
     }
 
 }/* 700pxここまで */
+
+@media (max-width: 400px) {
+    .sp-400 {
+        display: block;
+    }
+}/* 400pxここまで */
